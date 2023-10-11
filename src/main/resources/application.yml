@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+
+spring:
+  main:
+    # To launch an application without embedded web server
+    # web-application-type: none
+
+    # To launch an application with embedded web server
+    web-application-type: servlet
